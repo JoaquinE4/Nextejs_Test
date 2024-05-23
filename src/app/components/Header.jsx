@@ -45,7 +45,7 @@ const Navbar = () => {
       }`}
     >
       {/* Logo */}
-      <h1 className="w-full content-center pl-5 sm:pl-10 justify-center text-3xl font-bold transition duration-500 delay-75 hover:text-[#d8d5f5] text-[#ffffff]">
+      <h1 className="w-full font-sans content-center pl-5 sm:pl-10 justify-center text-3xl font-bold transition duration-500 delay-75 hover:text-[#d8d5f5] text-[#ffffff]">
         Solo Marcket.
       </h1>
 
