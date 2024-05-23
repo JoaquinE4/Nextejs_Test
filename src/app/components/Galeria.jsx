@@ -32,9 +32,9 @@ export default function App() {
         modules={[Autoplay, Pagination ]}
         className="mySwiper"
       >
-        <SwiperSlide> <Image src={"/baner.jpg"} height={480} width={1200} /></SwiperSlide>
-        <SwiperSlide><Image src={"/baner.jpg"} height={480} width={1200} /></SwiperSlide>
-        <SwiperSlide><Image src={"/baner.jpg"} height={480} width={1200} /></SwiperSlide>
+        <SwiperSlide> <Image src={"/baner.jpg"} height={480} width={1200} alt='123' /></SwiperSlide>
+        <SwiperSlide><Image src={"/baner.jpg"} height={480} width={1200}  alt='123'/></SwiperSlide>
+        <SwiperSlide><Image src={"/baner.jpg"} height={480} width={1200} alt='123' /></SwiperSlide>
         
       </Swiper>
     </div>

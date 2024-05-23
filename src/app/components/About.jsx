@@ -19,7 +19,7 @@ export default function About() {
       </div>
       <div className="w-full sm:w-1/2 lg:w-2/4  flex justify-center sm:justify-end">
          
-          <Image src={"/acrobata.png"} height={450} width={550} className="object-contain drop-shadow-2xl  " />
+          <Image src={"/acrobata.png"} height={450} width={550} alt={"asd"} className="object-contain drop-shadow-2xl  " />
        
       </div>
     </div>

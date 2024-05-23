@@ -15,16 +15,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-      <link href="https://fonts.cdnfonts.com/css/adlam-display" rel="stylesheet"/>
-                
-                
-      </head>
+       
       <body className={inter.className}>{children}
       
-      <style>
-                            @import url('https://fonts.cdnfonts.com/css/adlam-display');
-</style>
+ 
                 
       </body>
     </html>

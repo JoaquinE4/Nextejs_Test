@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function Hero() {
   return (
     <div className="bg-slate-400 hero w-full  drop-shadow-2xl  sm:pl-[5.5rem]  content-center h-[42rem] lg:h-[42rem]">

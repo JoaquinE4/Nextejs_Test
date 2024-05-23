@@ -66,7 +66,11 @@ const Navbar = () => {
         onClick={handleNav}
         className="block content-center justify-center pr-7 sm:pr-14  md:hidden"
       >
-        {nav ? <AiOutlineClose size={30} color={"#fff"} /> : <AiOutlineMenu size={30} color={"#fff"} />}
+        {nav ? (
+          <AiOutlineClose size={30} color={"#fff"} />
+        ) : (
+          <AiOutlineMenu size={30} color={"#fff"} />
+        )}
       </div>
 
       {/* Menú de navegación móvil */}

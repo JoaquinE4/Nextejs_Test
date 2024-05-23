@@ -2,10 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* *{
-  padding-left: 3px;
-  padding-right: 3px;
-} */
+ 
 .hero {
   background-image: linear-gradient(rgba(59, 58, 58, 0.5), rgba(0, 0, 0, 0.5)), url("/baner.jpg"); /* Ruta corregida */
   background-size: cover;
@@ -15,12 +12,7 @@
 .shadou{
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.466); 
 }
-.ss{
-  
-   font-family: 'ADLaM Display', sans-serif;
-                                                
-                                                
-}
+ 
 
 .swiper {
   width: 100%;
