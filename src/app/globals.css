@@ -37,3 +37,30 @@
   object-fit: cover;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+  padding: 4rem; /* Padding por defecto */
+}
+
+@media screen and (max-width: 640px) {
+  .center {
+    padding: 6rem; /* Reducir el padding en pantallas más pequeñas */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .center {
+    padding: 3rem; /* Reducir aún más el padding en pantallas más pequeñas */
+  }
+}
+@media screen and (max-width: 380px) {
+  .center {
+    padding: 2rem; /* Reducir aún más el padding en pantallas más pequeñas */
+  }
+}
+@media screen and (max-width: 322px) {
+  .center {
+    padding: 0rem; /* Reducir aún más el padding en pantallas más pequeñas */
+  }
+}
