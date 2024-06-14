@@ -16,7 +16,7 @@ import Image from 'next/image';
 
 export default function App() {
   return (
-    <div className='h-[26rem]   md:h-[48rem] p-5'>
+    <div className='h-[26rem]   md:h-[38rem] p-5'>
       <Swiper
       
         spaceBetween={30}

@@ -3,7 +3,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
-const Navbar = () => {
+const NavbarStatic = () => {
   // Estado para manejar la visibilidad de la barra de navegación
   const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -34,16 +34,15 @@ const Navbar = () => {
     { id: 1, text: "Inicio" , href:"/"},
     
     { id: 3, text: "Productos", href:"/tienda" },
-    { id: 4, text: "Contacto", href:"#contacto"},
+ 
   ];
 
   return (
     <div
-      className={`w-full transition-all flex   fixed z-10  duration-1000 ${
-        scrolled
-          ? " h-[4rem] sm:h-[4rem] md:h-[5rem] fixed z-20 top-0 bg-[#9186b8]  "
-          : "h-[6rem] sm:h-[9rem] bg-[#ada2d300]"
-      }`}
+      className="w-full transition-all flex   z-20  duration-1000  
+         h-[4rem] sm:h-[4rem] md:h-[5rem] fixed   top-0 bg-[#9186b8]"
+         
+      
     >
       {/* Logo */}
       <h1 className="w-full font-sans content-center pl-5 sm:pl-10 justify-center text-2xl sm:text-3xl font-bold transition duration-500 delay-75 hover:text-[#d8d5f5] text-[#ffffff]">
@@ -106,4 +105,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarStatic;
